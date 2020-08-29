@@ -1,4 +1,4 @@
-# STOCK-MARKET-PREDICTOR
+# Chat Platform
 
 ![](https://github.com/ambujalpha/Chat_platform/blob/master/images/apps.jpg)
 
@@ -14,11 +14,17 @@ Link to download - https://github.com/tporadowski/redis/releases
 Further steps is to download and extract the files and paste it's path in path of your system.
 Run redis-server.exe while running the app
 
+
+![](https://github.com/ambujalpha/Chat_platform/blob/master/images/redis.png)
+
 # (III) WebSockets :
 
 WebSocket is a computer communications protocol, providing full-duplex communication channels over a single TCP 
 connection. The WebSocket protocol was standardized by the IETF as RFC 6455 in 2011, and the WebSocket API in Web IDL 
 is being standardized by the W3C. WebSocket is distinct from HTTP.
+
+
+![](https://github.com/ambujalpha/Chat_platform/blob/master/images/websocket.png)
 
 # (IV) Website Overview : 
 
