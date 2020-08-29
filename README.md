@@ -13,6 +13,7 @@ websockets to connect and redis server via microsoft, as server is required for 
 Link to download - https://github.com/tporadowski/redis/releases
 Further steps is to download and extract the files and paste it's path in path of your system.
 Run redis-server.exe while running the app
+Channel layers were mentioned in settings.py for it and port was also defined.
 
 
 ![](https://github.com/ambujalpha/Chat_platform/blob/master/images/redis.png)
@@ -28,26 +29,35 @@ is being standardized by the W3C. WebSocket is distinct from HTTP.
 
 # (IV) Website Overview : 
 
-Font-end(User point of view) - One can enter web-app and enter name of the room to chat with other users and can chat.
+Font-end(User point of view):  One can enter web-app and enter name of the room to chat with other users and can chat.
+2 html pages were design with scripting for working of chatting application, it also contained JS and have query handling capacity.
 
-Back-end(working of webapp) - regardless of mock_app one main was created to handle the chatting part.
+Back-end(working of webapp):  regardless of mock_app one main was created to handle the chatting part.
 
-Routing: Routing is the process of selecting a path for traffic in a network or between or across multiple networks.
+Routing:  Routing is the process of selecting a path for traffic in a network or between or across multiple networks.
 One routing file was created in mock_up app to which will connect with main app.
 Routing file in main file is containing a webscoket_pattern to reroute it common room linked with consumers file.
 
-Consumers: Consumers.py file is taking care of connection, disconnection, recieving of chat messages from websockets 
+Consumers:  Consumers.py file is taking care of connection, disconnection, recieving of chat messages from websockets 
 and sending to chat room and vice versa. 
+
+ASGI:  ASGI, or the Asynchronous Server Gateway Interface, is the specification which Channels and Daphne are 
+built upon, designed to untie Channels apps from a specific application server and provide a common way to write 
+application and middleware code.
+
+WSGI:  Django's primary deployment platform is WSGI, the Python standard for web servers and applications. 
+Django's startproject management command sets up a minimal default WSGI configuration for us and it's enough here 
+for this level implementation.
+
+
+![](https://github.com/ambujalpha/Chat_platform/blob/master/images/webapp1.png)
+
+![](https://github.com/ambujalpha/Chat_platform/blob/master/images/webapp2.png)
 
 # (V) Conclusions :
 
-We were able to produce results which are consistent with the methodology proposed. Mainy the
-focus was to integrate the machine learning algorithms with our website for the completion of this
-project. This provides a powerful tool in the hands of a layman to observe predicted stocks and
-invest accordingly. A user friendly terminal which shows when to invest and when to divest gives a
-sense of trust to these predicted values. It is important to note that the results produced are likely to
-be the trend in the next 20 days. That explains that in between this time period there might be days
-which are not in resonance with the result but the end result is surely accurate to predict the trend.
+So here, basic design was implemented which can be later upgraded with databases as storage for chats and users, friends list.
+It can be furnished to inbox chat as well as group chat with various multiple features.
 
 
 
